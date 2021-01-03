@@ -1,0 +1,682 @@
+
+
+In file included from C:\Program Files (x86)\Arduino\libraries\TFT\src/TFT.h:36:0,
+                 from C:\Users\tuzzc\OneDrive\Desktop\sketch_dec25a\sketch_dec25a.ino:1:
+C:\Program Files (x86)\Arduino\libraries\TFT\src/utility/Adafruit_GFX.h:60:3: warning: #warning "The SD library was not found. loadImage() and image() won't be supported." [-Wcpp]
+  #warning "The SD library was not found. loadImage() and image() won't be supported."
+   ^~~~~~~
+In file included from C:\Program Files (x86)\Arduino\libraries\TFT\src\TFT.h:36:0,
+                 from C:\Program Files (x86)\Arduino\libraries\TFT\src\TFT.cpp:32:
+C:\Program Files (x86)\Arduino\libraries\TFT\src\utility/Adafruit_GFX.h:60:3: warning: #warning "The SD library was not found. loadImage() and image() won't be supported." [-Wcpp]
+  #warning "The SD library was not found. loadImage() and image() won't be supported."
+   ^~~~~~~
+In file included from C:\Program Files (x86)\Arduino\libraries\TFT\src\utility\Adafruit_ST7735.h:28:0,
+                 from C:\Program Files (x86)\Arduino\libraries\TFT\src\utility\Adafruit_ST7735.cpp:19:
+C:\Program Files (x86)\Arduino\libraries\TFT\src\utility\Adafruit_GFX.h:60:3: warning: #warning "The SD library was not found. loadImage() and image() won't be supported." [-Wcpp]
+  #warning "The SD library was not found. loadImage() and image() won't be supported."
+   ^~~~~~~
+In file included from C:\Program Files (x86)\Arduino\libraries\TFT\src\utility\Adafruit_GFX.cpp:34:0:
+C:\Program Files (x86)\Arduino\libraries\TFT\src\utility\Adafruit_GFX.h:60:3: warning: #warning "The SD library was not found. loadImage() and image() won't be supported." [-Wcpp]
+  #warning "The SD library was not found. loadImage() and image() won't be supported."
+   ^~~~~~~
+libraries\Adafruit_GFX_Library\Adafruit_GFX.cpp.o (symbol from plugin): In function `Adafruit_GFX::writeLine(int, int, int, int, unsigned int)':
+(.text+0x0): multiple definition of `Adafruit_GFX::drawFastVLine(int, int, int, unsigned int)'
+libraries\TFT\utility\Adafruit_GFX.cpp.o (symbol from plugin):(.text+0x0): first defined here
+libraries\Adafruit_GFX_Library\Adafruit_GFX.cpp.o (symbol from plugin): In function `Adafruit_GFX::writeLine(int, int, int, int, unsigned int)':
+(.text+0x0): multiple definition of `Adafruit_GFX::drawFastHLine(int, int, int, unsigned int)'
+libraries\TFT\utility\Adafruit_GFX.cpp.o (symbol from plugin):(.text+0x0): first defined here
+libraries\Adafruit_GFX_Library\Adafruit_GFX.cpp.o (symbol from plugin): In function `Adafruit_GFX::writeLine(int, int, int, int, unsigned int)':
+(.text+0x0): multiple definition of `Adafruit_GFX::fillRect(int, int, int, int, unsigned int)'
+libraries\TFT\utility\Adafruit_GFX.cpp.o (symbol from plugin):(.text+0x0): first defined here
+libraries\Adafruit_GFX_Library\Adafruit_GFX.cpp.o (symbol from plugin): In function `Adafruit_GFX::writeLine(int, int, int, int, unsigned int)':
+(.text+0x0): multiple definition of `Adafruit_GFX::fillScreen(unsigned int)'
+libraries\TFT\utility\Adafruit_GFX.cpp.o (symbol from plugin):(.text+0x0): first defined here
+libraries\Adafruit_GFX_Library\Adafruit_GFX.cpp.o (symbol from plugin): In function `Adafruit_GFX::writeLine(int, int, int, int, unsigned int)':
+(.text+0x0): multiple definition of `Adafruit_GFX::drawRect(int, int, int, int, unsigned int)'
+libraries\TFT\utility\Adafruit_GFX.cpp.o (symbol from plugin):(.text+0x0): first defined here
+libraries\Adafruit_GFX_Library\Adafruit_GFX.cpp.o (symbol from plugin): In function `Adafruit_GFX::writeLine(int, int, int, int, unsigned int)':
+(.text+0x0): multiple definition of `Adafruit_GFX::invertDisplay(bool)'
+libraries\TFT\utility\Adafruit_GFX.cpp.o (symbol from plugin):(.text+0x0): first defined here
+libraries\Adafruit_GFX_Library\Adafruit_GFX.cpp.o (symbol from plugin): In function `Adafruit_GFX::writeLine(int, int, int, int, unsigned int)':
+(.text+0x0): multiple definition of `Adafruit_GFX::drawLine(int, int, int, int, unsigned int)'
+libraries\TFT\utility\Adafruit_GFX.cpp.o (symbol from plugin):(.text+0x0): first defined here
+libraries\Adafruit_GFX_Library\Adafruit_GFX.cpp.o (symbol from plugin): In function `Adafruit_GFX::writeLine(int, int, int, int, unsigned int)':
+(.text+0x0): multiple definition of `Adafruit_GFX::setRotation(unsigned char)'
+libraries\TFT\utility\Adafruit_GFX.cpp.o (symbol from plugin):(.text+0x0): first defined here
+libraries\Adafruit_GFX_Library\Adafruit_GFX.cpp.o (symbol from plugin): In function `Adafruit_GFX::writeLine(int, int, int, int, unsigned int)':
+(.text+0x0): multiple definition of `Adafruit_GFX::Adafruit_GFX(int, int)'
+libraries\TFT\utility\Adafruit_GFX.cpp.o (symbol from plugin):(.text+0x0): first defined here
+libraries\Adafruit_GFX_Library\Adafruit_GFX.cpp.o (symbol from plugin): In function `Adafruit_GFX::writeLine(int, int, int, int, unsigned int)':
+(.text+0x0): multiple definition of `Adafruit_GFX::Adafruit_GFX(int, int)'
+libraries\TFT\utility\Adafruit_GFX.cpp.o (symbol from plugin):(.text+0x0): first defined here
+libraries\Adafruit_GFX_Library\Adafruit_GFX.cpp.o (symbol from plugin): In function `Adafruit_GFX::writeLine(int, int, int, int, unsigned int)':
+(.text+0x0): multiple definition of `Adafruit_GFX::drawCircle(int, int, int, unsigned int)'
+libraries\TFT\utility\Adafruit_GFX.cpp.o (symbol from plugin):(.text+0x0): first defined here
+libraries\Adafruit_GFX_Library\Adafruit_GFX.cpp.o (symbol from plugin): In function `Adafruit_GFX::writeLine(int, int, int, int, unsigned int)':
+(.text+0x0): multiple definition of `Adafruit_GFX::drawCircleHelper(int, int, int, unsigned char, unsigned int)'
+libraries\TFT\utility\Adafruit_GFX.cpp.o (symbol from plugin):(.text+0x0): first defined here
+libraries\Adafruit_GFX_Library\Adafruit_GFX.cpp.o (symbol from plugin): In function `Adafruit_GFX::writeLine(int, int, int, int, unsigned int)':
+(.text+0x0): multiple definition of `Adafruit_GFX::fillCircleHelper(int, int, int, unsigned char, int, unsigned int)'
+libraries\TFT\utility\Adafruit_GFX.cpp.o (symbol from plugin):(.text+0x0): first defined here
+libraries\Adafruit_GFX_Library\Adafruit_GFX.cpp.o (symbol from plugin): In function `Adafruit_GFX::writeLine(int, int, int, int, unsigned int)':
+(.text+0x0): multiple definition of `Adafruit_GFX::fillCircle(int, int, int, unsigned int)'
+libraries\TFT\utility\Adafruit_GFX.cpp.o (symbol from plugin):(.text+0x0): first defined here
+libraries\Adafruit_GFX_Library\Adafruit_GFX.cpp.o (symbol from plugin): In function `Adafruit_GFX::writeLine(int, int, int, int, unsigned int)':
+(.text+0x0): multiple definition of `Adafruit_GFX::drawRoundRect(int, int, int, int, int, unsigned int)'
+libraries\TFT\utility\Adafruit_GFX.cpp.o (symbol from plugin):(.text+0x0): first defined here
+libraries\Adafruit_GFX_Library\Adafruit_GFX.cpp.o (symbol from plugin): In function `Adafruit_GFX::writeLine(int, int, int, int, unsigned int)':
+(.text+0x0): multiple definition of `Adafruit_GFX::fillRoundRect(int, int, int, int, int, unsigned int)'
+libraries\TFT\utility\Adafruit_GFX.cpp.o (symbol from plugin):(.text+0x0): first defined here
+libraries\Adafruit_GFX_Library\Adafruit_GFX.cpp.o (symbol from plugin): In function `Adafruit_GFX::writeLine(int, int, int, int, unsigned int)':
+(.text+0x0): multiple definition of `Adafruit_GFX::drawTriangle(int, int, int, int, int, int, unsigned int)'
+libraries\TFT\utility\Adafruit_GFX.cpp.o (symbol from plugin):(.text+0x0): first defined here
+libraries\Adafruit_GFX_Library\Adafruit_GFX.cpp.o (symbol from plugin): In function `Adafruit_GFX::writeLine(int, int, int, int, unsigned int)':
+(.text+0x0): multiple definition of `Adafruit_GFX::fillTriangle(int, int, int, int, int, int, unsigned int)'
+libraries\TFT\utility\Adafruit_GFX.cpp.o (symbol from plugin):(.text+0x0): first defined here
+libraries\Adafruit_GFX_Library\Adafruit_GFX.cpp.o (symbol from plugin): In function `Adafruit_GFX::writeLine(int, int, int, int, unsigned int)':
+(.text+0x0): multiple definition of `Adafruit_GFX::drawBitmap(int, int, unsigned char const*, int, int, unsigned int)'
+libraries\TFT\utility\Adafruit_GFX.cpp.o (symbol from plugin):(.text+0x0): first defined here
+libraries\Adafruit_GFX_Library\Adafruit_GFX.cpp.o (symbol from plugin): In function `Adafruit_GFX::writeLine(int, int, int, int, unsigned int)':
+(.text+0x0): multiple definition of `Adafruit_GFX::drawChar(int, int, unsigned char, unsigned int, unsigned int, unsigned char)'
+libraries\TFT\utility\Adafruit_GFX.cpp.o (symbol from plugin):(.text+0x0): first defined here
+libraries\Adafruit_GFX_Library\Adafruit_GFX.cpp.o (symbol from plugin): In function `Adafruit_GFX::writeLine(int, int, int, int, unsigned int)':
+(.text+0x0): multiple definition of `Adafruit_GFX::write(unsigned char)'
+libraries\TFT\utility\Adafruit_GFX.cpp.o (symbol from plugin):(.text+0x0): first defined here
+libraries\Adafruit_GFX_Library\Adafruit_GFX.cpp.o (symbol from plugin): In function `Adafruit_GFX::writeLine(int, int, int, int, unsigned int)':
+(.text+0x0): multiple definition of `Adafruit_GFX::setTextSize(unsigned char)'
+libraries\TFT\utility\Adafruit_GFX.cpp.o (symbol from plugin):(.text+0x0): first defined here
+C:\Program Files (x86)\Arduino\libraries\TFT\src/utility/Adafruit_GFX.h:76:7: warning: type 'struct Adafruit_GFX' violates the C++ One Definition Rule [-Wodr]
+ class Adafruit_GFX : public Print {
+       ^
+C:\Users\tuzzc\OneDrive\Documents\Arduino\libraries\Adafruit_GFX_Library\Adafruit_GFX.h:15:7: note: a different type is defined in another translation unit
+ class Adafruit_GFX : public Print {
+       ^
+C:\Program Files (x86)\Arduino\libraries\TFT\src/utility/Adafruit_GFX.h:212:2: note: the first difference of corresponding definitions is field 'textsize'
+  textsize,
+  ^
+C:\Users\tuzzc\OneDrive\Documents\Arduino\libraries\Adafruit_GFX_Library\Adafruit_GFX.h:240:11: note: a field with different name is defined in another translation unit
+   uint8_t textsize_x;   ///< Desired magnification in X-axis of text to print()
+           ^
+C:\Users\tuzzc\OneDrive\Documents\Arduino\libraries\MCUFRIEND_kbv-master/MCUFRIEND_kbv.h:19:7: warning: type 'struct MCUFRIEND_kbv' violates the C++ One Definition Rule [-Wodr]
+ class MCUFRIEND_kbv : public Adafruit_GFX {
+       ^
+C:\Users\tuzzc\OneDrive\Documents\Arduino\libraries\MCUFRIEND_kbv-master\MCUFRIEND_kbv.h:19:7: note: a type with different bases is defined in another translation unit
+ class MCUFRIEND_kbv : public Adafruit_GFX {
+       ^
+C:\Users\tuzzc\OneDrive\Documents\Arduino\libraries\Adafruit_GFX_Library\Adafruit_GFX.cpp:1316:6: warning: 'setRotation' violates the C++ One Definition Rule  [-Wodr]
+ void Adafruit_GFX::setRotation(uint8_t x) {
+      ^
+C:\Program Files (x86)\Arduino\libraries\TFT\src\utility\Adafruit_GFX.cpp:471:6: note: implicit this pointer type mismatch
+ void Adafruit_GFX::setRotation(uint8_t x)
+      ^
+C:\Program Files (x86)\Arduino\libraries\TFT\src\utility\Adafruit_GFX.h:76:7: note: type 'struct Adafruit_GFX' itself violates the C++ One Definition Rule
+ class Adafruit_GFX : public Print {
+       ^
+C:\Users\tuzzc\OneDrive\Documents\Arduino\libraries\Adafruit_GFX_Library\Adafruit_GFX.h:15:7: note: the incompatible type is defined here
+ class Adafruit_GFX : public Print {
+       ^
+C:\Users\tuzzc\OneDrive\Documents\Arduino\libraries\Adafruit_GFX_Library/Adafruit_GFX.h:47:16: warning: 'setRotation' violates the C++ One Definition Rule  [-Wodr]
+   virtual void setRotation(uint8_t r);
+                ^
+C:\Program Files (x86)\Arduino\libraries\TFT\src\utility\Adafruit_GFX.cpp:471:6: note: implicit this pointer type mismatch
+ void Adafruit_GFX::setRotation(uint8_t x)
+      ^
+C:\Program Files (x86)\Arduino\libraries\TFT\src\utility\Adafruit_GFX.h:76:7: note: type 'struct Adafruit_GFX' itself violates the C++ One Definition Rule
+ class Adafruit_GFX : public Print {
+       ^
+C:\Users\tuzzc\OneDrive\Documents\Arduino\libraries\Adafruit_GFX_Library/Adafruit_GFX.h:15:7: note: the incompatible type is defined here
+ class Adafruit_GFX : public Print {
+       ^
+C:\Program Files (x86)\Arduino\libraries\TFT\src\utility\Adafruit_GFX.cpp:471:6: note: 'setRotation' was previously declared here
+ void Adafruit_GFX::setRotation(uint8_t x)
+      ^
+C:\Program Files (x86)\Arduino\libraries\TFT\src\utility\Adafruit_GFX.cpp:471:6: note: code may be misoptimized unless -fno-strict-aliasing is used
+C:\Users\tuzzc\OneDrive\Documents\Arduino\libraries\Adafruit_GFX_Library\Adafruit_GFX.cpp:1115:6: warning: 'drawChar' violates the C++ One Definition Rule  [-Wodr]
+ void Adafruit_GFX::drawChar(int16_t x, int16_t y, unsigned char c,
+      ^
+C:\Program Files (x86)\Arduino\libraries\TFT\src\utility\Adafruit_GFX.cpp:401:6: note: implicit this pointer type mismatch
+ void Adafruit_GFX::drawChar(int16_t x, int16_t y, unsigned char c,
+      ^
+C:\Program Files (x86)\Arduino\libraries\TFT\src\utility\Adafruit_GFX.h:76:7: note: type 'struct Adafruit_GFX' itself violates the C++ One Definition Rule
+ class Adafruit_GFX : public Print {
+       ^
+C:\Users\tuzzc\OneDrive\Documents\Arduino\libraries\Adafruit_GFX_Library\Adafruit_GFX.h:15:7: note: the incompatible type is defined here
+ class Adafruit_GFX : public Print {
+       ^
+C:\Program Files (x86)\Arduino\libraries\TFT\src\utility\Adafruit_GFX.cpp:401:6: note: 'drawChar' was previously declared here
+ void Adafruit_GFX::drawChar(int16_t x, int16_t y, unsigned char c,
+      ^
+C:\Program Files (x86)\Arduino\libraries\TFT\src\utility\Adafruit_GFX.cpp:401:6: note: code may be misoptimized unless -fno-strict-aliasing is used
+C:\Users\tuzzc\OneDrive\Documents\Arduino\libraries\Adafruit_GFX_Library\Adafruit_GFX.cpp:717:6: warning: 'drawBitmap' violates the C++ One Definition Rule  [-Wodr]
+ void Adafruit_GFX::drawBitmap(int16_t x, int16_t y, const uint8_t bitmap[],
+      ^
+C:\Program Files (x86)\Arduino\libraries\TFT\src\utility\Adafruit_GFX.cpp:361:6: note: implicit this pointer type mismatch
+ void Adafruit_GFX::drawBitmap(int16_t x, int16_t y,
+      ^
+C:\Program Files (x86)\Arduino\libraries\TFT\src\utility\Adafruit_GFX.h:76:7: note: type 'struct Adafruit_GFX' itself violates the C++ One Definition Rule
+ class Adafruit_GFX : public Print {
+       ^
+C:\Users\tuzzc\OneDrive\Documents\Arduino\libraries\Adafruit_GFX_Library\Adafruit_GFX.h:15:7: note: the incompatible type is defined here
+ class Adafruit_GFX : public Print {
+       ^
+C:\Program Files (x86)\Arduino\libraries\TFT\src\utility\Adafruit_GFX.cpp:361:6: note: 'drawBitmap' was previously declared here
+ void Adafruit_GFX::drawBitmap(int16_t x, int16_t y,
+      ^
+C:\Program Files (x86)\Arduino\libraries\TFT\src\utility\Adafruit_GFX.cpp:361:6: note: code may be misoptimized unless -fno-strict-aliasing is used
+C:\Users\tuzzc\OneDrive\Documents\Arduino\libraries\Adafruit_GFX_Library\Adafruit_GFX.cpp:619:6: warning: 'fillTriangle' violates the C++ One Definition Rule  [-Wodr]
+ void Adafruit_GFX::fillTriangle(int16_t x0, int16_t y0, int16_t x1, int16_t y1,
+      ^
+C:\Program Files (x86)\Arduino\libraries\TFT\src\utility\Adafruit_GFX.cpp:285:6: note: implicit this pointer type mismatch
+ void Adafruit_GFX::fillTriangle ( int16_t x0, int16_t y0,
+      ^
+C:\Program Files (x86)\Arduino\libraries\TFT\src\utility\Adafruit_GFX.h:76:7: note: type 'struct Adafruit_GFX' itself violates the C++ One Definition Rule
+ class Adafruit_GFX : public Print {
+       ^
+C:\Users\tuzzc\OneDrive\Documents\Arduino\libraries\Adafruit_GFX_Library\Adafruit_GFX.h:15:7: note: the incompatible type is defined here
+ class Adafruit_GFX : public Print {
+       ^
+C:\Program Files (x86)\Arduino\libraries\TFT\src\utility\Adafruit_GFX.cpp:285:6: note: 'fillTriangle' was previously declared here
+ void Adafruit_GFX::fillTriangle ( int16_t x0, int16_t y0,
+      ^
+C:\Program Files (x86)\Arduino\libraries\TFT\src\utility\Adafruit_GFX.cpp:285:6: note: code may be misoptimized unless -fno-strict-aliasing is used
+C:\Users\tuzzc\OneDrive\Documents\Arduino\libraries\Adafruit_GFX_Library\Adafruit_GFX.cpp:600:6: warning: 'drawTriangle' violates the C++ One Definition Rule  [-Wodr]
+ void Adafruit_GFX::drawTriangle(int16_t x0, int16_t y0, int16_t x1, int16_t y1,
+      ^
+C:\Program Files (x86)\Arduino\libraries\TFT\src\utility\Adafruit_GFX.cpp:276:6: note: implicit this pointer type mismatch
+ void Adafruit_GFX::drawTriangle(int16_t x0, int16_t y0,
+      ^
+C:\Program Files (x86)\Arduino\libraries\TFT\src\utility\Adafruit_GFX.h:76:7: note: type 'struct Adafruit_GFX' itself violates the C++ One Definition Rule
+ class Adafruit_GFX : public Print {
+       ^
+C:\Users\tuzzc\OneDrive\Documents\Arduino\libraries\Adafruit_GFX_Library\Adafruit_GFX.h:15:7: note: the incompatible type is defined here
+ class Adafruit_GFX : public Print {
+       ^
+C:\Program Files (x86)\Arduino\libraries\TFT\src\utility\Adafruit_GFX.cpp:276:6: note: 'drawTriangle' was previously declared here
+ void Adafruit_GFX::drawTriangle(int16_t x0, int16_t y0,
+      ^
+C:\Program Files (x86)\Arduino\libraries\TFT\src\utility\Adafruit_GFX.cpp:276:6: note: code may be misoptimized unless -fno-strict-aliasing is used
+C:\Users\tuzzc\OneDrive\Documents\Arduino\libraries\Adafruit_GFX_Library\Adafruit_GFX.cpp:574:6: warning: 'fillRoundRect' violates the C++ One Definition Rule  [-Wodr]
+ void Adafruit_GFX::fillRoundRect(int16_t x, int16_t y, int16_t w, int16_t h,
+      ^
+C:\Program Files (x86)\Arduino\libraries\TFT\src\utility\Adafruit_GFX.cpp:264:6: note: implicit this pointer type mismatch
+ void Adafruit_GFX::fillRoundRect(int16_t x, int16_t y, int16_t w,
+      ^
+C:\Program Files (x86)\Arduino\libraries\TFT\src\utility\Adafruit_GFX.h:76:7: note: type 'struct Adafruit_GFX' itself violates the C++ One Definition Rule
+ class Adafruit_GFX : public Print {
+       ^
+C:\Users\tuzzc\OneDrive\Documents\Arduino\libraries\Adafruit_GFX_Library\Adafruit_GFX.h:15:7: note: the incompatible type is defined here
+ class Adafruit_GFX : public Print {
+       ^
+C:\Program Files (x86)\Arduino\libraries\TFT\src\utility\Adafruit_GFX.cpp:264:6: note: 'fillRoundRect' was previously declared here
+ void Adafruit_GFX::fillRoundRect(int16_t x, int16_t y, int16_t w,
+      ^
+C:\Program Files (x86)\Arduino\libraries\TFT\src\utility\Adafruit_GFX.cpp:264:6: note: code may be misoptimized unless -fno-strict-aliasing is used
+C:\Users\tuzzc\OneDrive\Documents\Arduino\libraries\Adafruit_GFX_Library\Adafruit_GFX.cpp:544:6: warning: 'drawRoundRect' violates the C++ One Definition Rule  [-Wodr]
+ void Adafruit_GFX::drawRoundRect(int16_t x, int16_t y, int16_t w, int16_t h,
+      ^
+C:\Program Files (x86)\Arduino\libraries\TFT\src\utility\Adafruit_GFX.cpp:248:6: note: implicit this pointer type mismatch
+ void Adafruit_GFX::drawRoundRect(int16_t x, int16_t y, int16_t w,
+      ^
+C:\Program Files (x86)\Arduino\libraries\TFT\src\utility\Adafruit_GFX.h:76:7: note: type 'struct Adafruit_GFX' itself violates the C++ One Definition Rule
+ class Adafruit_GFX : public Print {
+       ^
+C:\Users\tuzzc\OneDrive\Documents\Arduino\libraries\Adafruit_GFX_Library\Adafruit_GFX.h:15:7: note: the incompatible type is defined here
+ class Adafruit_GFX : public Print {
+       ^
+C:\Program Files (x86)\Arduino\libraries\TFT\src\utility\Adafruit_GFX.cpp:248:6: note: 'drawRoundRect' was previously declared here
+ void Adafruit_GFX::drawRoundRect(int16_t x, int16_t y, int16_t w,
+      ^
+C:\Program Files (x86)\Arduino\libraries\TFT\src\utility\Adafruit_GFX.cpp:248:6: note: code may be misoptimized unless -fno-strict-aliasing is used
+C:\Users\tuzzc\OneDrive\Documents\Arduino\libraries\Adafruit_GFX_Library\Adafruit_GFX.cpp:452:6: warning: 'fillCircle' violates the C++ One Definition Rule  [-Wodr]
+ void Adafruit_GFX::fillCircle(int16_t x0, int16_t y0, int16_t r,
+      ^
+C:\Program Files (x86)\Arduino\libraries\TFT\src\utility\Adafruit_GFX.cpp:125:6: note: implicit this pointer type mismatch
+ void Adafruit_GFX::fillCircle(int16_t x0, int16_t y0, int16_t r,
+      ^
+C:\Program Files (x86)\Arduino\libraries\TFT\src\utility\Adafruit_GFX.h:76:7: note: type 'struct Adafruit_GFX' itself violates the C++ One Definition Rule
+ class Adafruit_GFX : public Print {
+       ^
+C:\Users\tuzzc\OneDrive\Documents\Arduino\libraries\Adafruit_GFX_Library\Adafruit_GFX.h:15:7: note: the incompatible type is defined here
+ class Adafruit_GFX : public Print {
+       ^
+C:\Program Files (x86)\Arduino\libraries\TFT\src\utility\Adafruit_GFX.cpp:125:6: note: 'fillCircle' was previously declared here
+ void Adafruit_GFX::fillCircle(int16_t x0, int16_t y0, int16_t r,
+      ^
+C:\Program Files (x86)\Arduino\libraries\TFT\src\utility\Adafruit_GFX.cpp:125:6: note: code may be misoptimized unless -fno-strict-aliasing is used
+C:\Users\tuzzc\OneDrive\Documents\Arduino\libraries\Adafruit_GFX_Library\Adafruit_GFX.cpp:471:6: warning: 'fillCircleHelper' violates the C++ One Definition Rule  [-Wodr]
+ void Adafruit_GFX::fillCircleHelper(int16_t x0, int16_t y0, int16_t r,
+      ^
+C:\Program Files (x86)\Arduino\libraries\TFT\src\utility\Adafruit_GFX.cpp:133:6: note: implicit this pointer type mismatch
+ void Adafruit_GFX::fillCircleHelper(int16_t x0, int16_t y0, int16_t r,
+      ^
+C:\Program Files (x86)\Arduino\libraries\TFT\src\utility\Adafruit_GFX.h:76:7: note: type 'struct Adafruit_GFX' itself violates the C++ One Definition Rule
+ class Adafruit_GFX : public Print {
+       ^
+C:\Users\tuzzc\OneDrive\Documents\Arduino\libraries\Adafruit_GFX_Library\Adafruit_GFX.h:15:7: note: the incompatible type is defined here
+ class Adafruit_GFX : public Print {
+       ^
+C:\Program Files (x86)\Arduino\libraries\TFT\src\utility\Adafruit_GFX.cpp:133:6: note: 'fillCircleHelper' was previously declared here
+ void Adafruit_GFX::fillCircleHelper(int16_t x0, int16_t y0, int16_t r,
+      ^
+C:\Program Files (x86)\Arduino\libraries\TFT\src\utility\Adafruit_GFX.cpp:133:6: note: code may be misoptimized unless -fno-strict-aliasing is used
+C:\Users\tuzzc\OneDrive\Documents\Arduino\libraries\Adafruit_GFX_Library\Adafruit_GFX.cpp:407:6: warning: 'drawCircleHelper' violates the C++ One Definition Rule  [-Wodr]
+ void Adafruit_GFX::drawCircleHelper(int16_t x0, int16_t y0, int16_t r,
+      ^
+C:\Program Files (x86)\Arduino\libraries\TFT\src\utility\Adafruit_GFX.cpp:89:6: note: implicit this pointer type mismatch
+ void Adafruit_GFX::drawCircleHelper( int16_t x0, int16_t y0,
+      ^
+C:\Program Files (x86)\Arduino\libraries\TFT\src\utility\Adafruit_GFX.h:76:7: note: type 'struct Adafruit_GFX' itself violates the C++ One Definition Rule
+ class Adafruit_GFX : public Print {
+       ^
+C:\Users\tuzzc\OneDrive\Documents\Arduino\libraries\Adafruit_GFX_Library\Adafruit_GFX.h:15:7: note: the incompatible type is defined here
+ class Adafruit_GFX : public Print {
+       ^
+C:\Program Files (x86)\Arduino\libraries\TFT\src\utility\Adafruit_GFX.cpp:89:6: note: 'drawCircleHelper' was previously declared here
+ void Adafruit_GFX::drawCircleHelper( int16_t x0, int16_t y0,
+      ^
+C:\Program Files (x86)\Arduino\libraries\TFT\src\utility\Adafruit_GFX.cpp:89:6: note: code may be misoptimized unless -fno-strict-aliasing is used
+C:\Users\tuzzc\OneDrive\Documents\Arduino\libraries\Adafruit_GFX_Library\Adafruit_GFX.cpp:357:6: warning: 'drawCircle' violates the C++ One Definition Rule  [-Wodr]
+ void Adafruit_GFX::drawCircle(int16_t x0, int16_t y0, int16_t r,
+      ^
+C:\Program Files (x86)\Arduino\libraries\TFT\src\utility\Adafruit_GFX.cpp:55:6: note: implicit this pointer type mismatch
+ void Adafruit_GFX::drawCircle(int16_t x0, int16_t y0, int16_t r,
+      ^
+C:\Program Files (x86)\Arduino\libraries\TFT\src\utility\Adafruit_GFX.h:76:7: note: type 'struct Adafruit_GFX' itself violates the C++ One Definition Rule
+ class Adafruit_GFX : public Print {
+       ^
+C:\Users\tuzzc\OneDrive\Documents\Arduino\libraries\Adafruit_GFX_Library\Adafruit_GFX.h:15:7: note: the incompatible type is defined here
+ class Adafruit_GFX : public Print {
+       ^
+C:\Program Files (x86)\Arduino\libraries\TFT\src\utility\Adafruit_GFX.cpp:55:6: note: 'drawCircle' was previously declared here
+ void Adafruit_GFX::drawCircle(int16_t x0, int16_t y0, int16_t r,
+      ^
+C:\Program Files (x86)\Arduino\libraries\TFT\src\utility\Adafruit_GFX.cpp:55:6: note: code may be misoptimized unless -fno-strict-aliasing is used
+C:\Users\tuzzc\OneDrive\Documents\Arduino\libraries\Adafruit_GFX_Library\Adafruit_GFX.cpp:110:1: warning: '__comp_ctor ' violates the C++ One Definition Rule  [-Wodr]
+ Adafruit_GFX::Adafruit_GFX(int16_t w, int16_t h) : WIDTH(w), HEIGHT(h) {
+ ^
+C:\Program Files (x86)\Arduino\libraries\TFT\src\utility\Adafruit_GFX.cpp:42:1: note: implicit this pointer type mismatch
+ Adafruit_GFX::Adafruit_GFX(int16_t w, int16_t h) :
+ ^
+C:\Program Files (x86)\Arduino\libraries\TFT\src\utility\Adafruit_GFX.h:76:7: note: type 'struct Adafruit_GFX' itself violates the C++ One Definition Rule
+ class Adafruit_GFX : public Print {
+       ^
+C:\Users\tuzzc\OneDrive\Documents\Arduino\libraries\Adafruit_GFX_Library\Adafruit_GFX.h:15:7: note: the incompatible type is defined here
+ class Adafruit_GFX : public Print {
+       ^
+C:\Program Files (x86)\Arduino\libraries\TFT\src\utility\Adafruit_GFX.cpp:42:1: note: '__comp_ctor ' was previously declared here
+ Adafruit_GFX::Adafruit_GFX(int16_t w, int16_t h) :
+ ^
+C:\Program Files (x86)\Arduino\libraries\TFT\src\utility\Adafruit_GFX.cpp:42:1: note: code may be misoptimized unless -fno-strict-aliasing is used
+C:\Users\tuzzc\OneDrive\Documents\Arduino\libraries\Adafruit_GFX_Library\Adafruit_GFX.cpp:110:1: warning: '__base_ctor ' violates the C++ One Definition Rule  [-Wodr]
+ Adafruit_GFX::Adafruit_GFX(int16_t w, int16_t h) : WIDTH(w), HEIGHT(h) {
+ ^
+C:\Program Files (x86)\Arduino\libraries\TFT\src\utility\Adafruit_GFX.cpp:42:1: note: implicit this pointer type mismatch
+ Adafruit_GFX::Adafruit_GFX(int16_t w, int16_t h) :
+ ^
+C:\Program Files (x86)\Arduino\libraries\TFT\src\utility\Adafruit_GFX.h:76:7: note: type 'struct Adafruit_GFX' itself violates the C++ One Definition Rule
+ class Adafruit_GFX : public Print {
+       ^
+C:\Users\tuzzc\OneDrive\Documents\Arduino\libraries\Adafruit_GFX_Library\Adafruit_GFX.h:15:7: note: the incompatible type is defined here
+ class Adafruit_GFX : public Print {
+       ^
+C:\Users\tuzzc\OneDrive\Documents\Arduino\libraries\Adafruit_GFX_Library/Adafruit_GFX.h:18:3: warning: '__base_ctor ' violates the C++ One Definition Rule  [-Wodr]
+   Adafruit_GFX(int16_t w, int16_t h); // Constructor
+   ^
+C:\Program Files (x86)\Arduino\libraries\TFT\src\utility\Adafruit_GFX.cpp:42:1: note: implicit this pointer type mismatch
+ Adafruit_GFX::Adafruit_GFX(int16_t w, int16_t h) :
+ ^
+C:\Program Files (x86)\Arduino\libraries\TFT\src\utility\Adafruit_GFX.h:76:7: note: type 'struct Adafruit_GFX' itself violates the C++ One Definition Rule
+ class Adafruit_GFX : public Print {
+       ^
+C:\Users\tuzzc\OneDrive\Documents\Arduino\libraries\Adafruit_GFX_Library/Adafruit_GFX.h:15:7: note: the incompatible type is defined here
+ class Adafruit_GFX : public Print {
+       ^
+C:\Program Files (x86)\Arduino\libraries\TFT\src\utility\Adafruit_GFX.cpp:42:1: note: '__base_ctor ' was previously declared here
+ Adafruit_GFX::Adafruit_GFX(int16_t w, int16_t h) :
+ ^
+C:\Program Files (x86)\Arduino\libraries\TFT\src\utility\Adafruit_GFX.cpp:42:1: note: code may be misoptimized unless -fno-strict-aliasing is used
+C:\Users\tuzzc\OneDrive\Documents\Arduino\libraries\Adafruit_GFX_Library\Adafruit_GFX.cpp:1540:6: warning: 'invertDisplay' violates the C++ One Definition Rule  [-Wodr]
+ void Adafruit_GFX::invertDisplay(bool i) {
+      ^
+C:\Program Files (x86)\Arduino\libraries\TFT\src\utility\Adafruit_GFX.cpp:501:6: note: implicit this pointer type mismatch
+ void Adafruit_GFX::invertDisplay(boolean i)
+      ^
+C:\Program Files (x86)\Arduino\libraries\TFT\src\utility\Adafruit_GFX.h:76:7: note: type 'struct Adafruit_GFX' itself violates the C++ One Definition Rule
+ class Adafruit_GFX : public Print {
+       ^
+C:\Users\tuzzc\OneDrive\Documents\Arduino\libraries\Adafruit_GFX_Library\Adafruit_GFX.h:15:7: note: the incompatible type is defined here
+ class Adafruit_GFX : public Print {
+       ^
+C:\Program Files (x86)\Arduino\libraries\TFT\src\utility\Adafruit_GFX.cpp:501:6: note: 'invertDisplay' was previously declared here
+ void Adafruit_GFX::invertDisplay(boolean i)
+      ^
+C:\Users\tuzzc\OneDrive\Documents\Arduino\libraries\Adafruit_GFX_Library\Adafruit_GFX.cpp:316:6: warning: 'fillScreen' violates the C++ One Definition Rule  [-Wodr]
+ void Adafruit_GFX::fillScreen(uint16_t color) {
+      ^
+C:\Program Files (x86)\Arduino\libraries\TFT\src\utility\Adafruit_GFX.cpp:243:6: note: implicit this pointer type mismatch
+ void Adafruit_GFX::fillScreen(uint16_t color) {
+      ^
+C:\Program Files (x86)\Arduino\libraries\TFT\src\utility\Adafruit_GFX.h:76:7: note: type 'struct Adafruit_GFX' itself violates the C++ One Definition Rule
+ class Adafruit_GFX : public Print {
+       ^
+C:\Users\tuzzc\OneDrive\Documents\Arduino\libraries\Adafruit_GFX_Library\Adafruit_GFX.h:15:7: note: the incompatible type is defined here
+ class Adafruit_GFX : public Print {
+       ^
+C:\Users\tuzzc\OneDrive\Documents\Arduino\libraries\Adafruit_GFX_Library/Adafruit_GFX.h:59:16: warning: 'fillScreen' violates the C++ One Definition Rule  [-Wodr]
+   virtual void fillScreen(uint16_t color);
+                ^
+C:\Program Files (x86)\Arduino\libraries\TFT\src\utility\Adafruit_GFX.cpp:243:6: note: implicit this pointer type mismatch
+ void Adafruit_GFX::fillScreen(uint16_t color) {
+      ^
+C:\Program Files (x86)\Arduino\libraries\TFT\src\utility\Adafruit_GFX.h:76:7: note: type 'struct Adafruit_GFX' itself violates the C++ One Definition Rule
+ class Adafruit_GFX : public Print {
+       ^
+C:\Users\tuzzc\OneDrive\Documents\Arduino\libraries\Adafruit_GFX_Library/Adafruit_GFX.h:15:7: note: the incompatible type is defined here
+ class Adafruit_GFX : public Print {
+       ^
+C:\Program Files (x86)\Arduino\libraries\TFT\src\utility\Adafruit_GFX.cpp:243:6: note: 'fillScreen' was previously declared here
+ void Adafruit_GFX::fillScreen(uint16_t color) {
+      ^
+C:\Program Files (x86)\Arduino\libraries\TFT\src\utility\Adafruit_GFX.cpp:243:6: note: code may be misoptimized unless -fno-strict-aliasing is used
+C:\Users\tuzzc\OneDrive\Documents\Arduino\libraries\Adafruit_GFX_Library\Adafruit_GFX.cpp:300:6: warning: 'fillRect' violates the C++ One Definition Rule  [-Wodr]
+ void Adafruit_GFX::fillRect(int16_t x, int16_t y, int16_t w, int16_t h,
+      ^
+C:\Program Files (x86)\Arduino\libraries\TFT\src\utility\Adafruit_GFX.cpp:233:6: note: implicit this pointer type mismatch
+ void Adafruit_GFX::fillRect(int16_t x, int16_t y, int16_t w, int16_t h,
+      ^
+C:\Program Files (x86)\Arduino\libraries\TFT\src\utility\Adafruit_GFX.h:76:7: note: type 'struct Adafruit_GFX' itself violates the C++ One Definition Rule
+ class Adafruit_GFX : public Print {
+       ^
+C:\Users\tuzzc\OneDrive\Documents\Arduino\libraries\Adafruit_GFX_Library\Adafruit_GFX.h:15:7: note: the incompatible type is defined here
+ class Adafruit_GFX : public Print {
+       ^
+C:\Users\tuzzc\OneDrive\Documents\Arduino\libraries\Adafruit_GFX_Library/Adafruit_GFX.h:57:16: warning: 'fillRect' violates the C++ One Definition Rule  [-Wodr]
+   virtual void fillRect(int16_t x, int16_t y, int16_t w, int16_t h,
+                ^
+C:\Program Files (x86)\Arduino\libraries\TFT\src\utility\Adafruit_GFX.cpp:233:6: note: implicit this pointer type mismatch
+ void Adafruit_GFX::fillRect(int16_t x, int16_t y, int16_t w, int16_t h,
+      ^
+C:\Program Files (x86)\Arduino\libraries\TFT\src\utility\Adafruit_GFX.h:76:7: note: type 'struct Adafruit_GFX' itself violates the C++ One Definition Rule
+ class Adafruit_GFX : public Print {
+       ^
+C:\Users\tuzzc\OneDrive\Documents\Arduino\libraries\Adafruit_GFX_Library/Adafruit_GFX.h:15:7: note: the incompatible type is defined here
+ class Adafruit_GFX : public Print {
+       ^
+C:\Program Files (x86)\Arduino\libraries\TFT\src\utility\Adafruit_GFX.cpp:233:6: note: 'fillRect' was previously declared here
+ void Adafruit_GFX::fillRect(int16_t x, int16_t y, int16_t w, int16_t h,
+      ^
+C:\Program Files (x86)\Arduino\libraries\TFT\src\utility\Adafruit_GFX.cpp:233:6: note: code may be misoptimized unless -fno-strict-aliasing is used
+C:\Users\tuzzc\OneDrive\Documents\Arduino\libraries\Adafruit_GFX_Library\Adafruit_GFX.cpp:282:6: warning: 'drawFastHLine' violates the C++ One Definition Rule  [-Wodr]
+ void Adafruit_GFX::drawFastHLine(int16_t x, int16_t y, int16_t w,
+      ^
+C:\Program Files (x86)\Arduino\libraries\TFT\src\utility\Adafruit_GFX.cpp:226:6: note: implicit this pointer type mismatch
+ void Adafruit_GFX::drawFastHLine(int16_t x, int16_t y,
+      ^
+C:\Program Files (x86)\Arduino\libraries\TFT\src\utility\Adafruit_GFX.h:76:7: note: type 'struct Adafruit_GFX' itself violates the C++ One Definition Rule
+ class Adafruit_GFX : public Print {
+       ^
+C:\Users\tuzzc\OneDrive\Documents\Arduino\libraries\Adafruit_GFX_Library\Adafruit_GFX.h:15:7: note: the incompatible type is defined here
+ class Adafruit_GFX : public Print {
+       ^
+C:\Users\tuzzc\OneDrive\Documents\Arduino\libraries\Adafruit_GFX_Library/Adafruit_GFX.h:56:16: warning: 'drawFastHLine' violates the C++ One Definition Rule  [-Wodr]
+   virtual void drawFastHLine(int16_t x, int16_t y, int16_t w, uint16_t color);
+                ^
+C:\Program Files (x86)\Arduino\libraries\TFT\src\utility\Adafruit_GFX.cpp:226:6: note: implicit this pointer type mismatch
+ void Adafruit_GFX::drawFastHLine(int16_t x, int16_t y,
+      ^
+C:\Program Files (x86)\Arduino\libraries\TFT\src\utility\Adafruit_GFX.h:76:7: note: type 'struct Adafruit_GFX' itself violates the C++ One Definition Rule
+ class Adafruit_GFX : public Print {
+       ^
+C:\Users\tuzzc\OneDrive\Documents\Arduino\libraries\Adafruit_GFX_Library/Adafruit_GFX.h:15:7: note: the incompatible type is defined here
+ class Adafruit_GFX : public Print {
+       ^
+C:\Program Files (x86)\Arduino\libraries\TFT\src\utility\Adafruit_GFX.cpp:226:6: note: 'drawFastHLine' was previously declared here
+ void Adafruit_GFX::drawFastHLine(int16_t x, int16_t y,
+      ^
+C:\Program Files (x86)\Arduino\libraries\TFT\src\utility\Adafruit_GFX.cpp:226:6: note: code may be misoptimized unless -fno-strict-aliasing is used
+C:\Users\tuzzc\OneDrive\Documents\Arduino\libraries\Adafruit_GFX_Library\Adafruit_GFX.cpp:265:6: warning: 'drawFastVLine' violates the C++ One Definition Rule  [-Wodr]
+ void Adafruit_GFX::drawFastVLine(int16_t x, int16_t y, int16_t h,
+      ^
+C:\Program Files (x86)\Arduino\libraries\TFT\src\utility\Adafruit_GFX.cpp:218:6: note: implicit this pointer type mismatch
+ void Adafruit_GFX::drawFastVLine(int16_t x, int16_t y,
+      ^
+C:\Program Files (x86)\Arduino\libraries\TFT\src\utility\Adafruit_GFX.h:76:7: note: type 'struct Adafruit_GFX' itself violates the C++ One Definition Rule
+ class Adafruit_GFX : public Print {
+       ^
+C:\Users\tuzzc\OneDrive\Documents\Arduino\libraries\Adafruit_GFX_Library\Adafruit_GFX.h:15:7: note: the incompatible type is defined here
+ class Adafruit_GFX : public Print {
+       ^
+C:\Users\tuzzc\OneDrive\Documents\Arduino\libraries\Adafruit_GFX_Library/Adafruit_GFX.h:55:16: warning: 'drawFastVLine' violates the C++ One Definition Rule  [-Wodr]
+   virtual void drawFastVLine(int16_t x, int16_t y, int16_t h, uint16_t color);
+                ^
+C:\Program Files (x86)\Arduino\libraries\TFT\src\utility\Adafruit_GFX.cpp:218:6: note: implicit this pointer type mismatch
+ void Adafruit_GFX::drawFastVLine(int16_t x, int16_t y,
+      ^
+C:\Program Files (x86)\Arduino\libraries\TFT\src\utility\Adafruit_GFX.h:76:7: note: type 'struct Adafruit_GFX' itself violates the C++ One Definition Rule
+ class Adafruit_GFX : public Print {
+       ^
+C:\Users\tuzzc\OneDrive\Documents\Arduino\libraries\Adafruit_GFX_Library/Adafruit_GFX.h:15:7: note: the incompatible type is defined here
+ class Adafruit_GFX : public Print {
+       ^
+C:\Program Files (x86)\Arduino\libraries\TFT\src\utility\Adafruit_GFX.cpp:218:6: note: 'drawFastVLine' was previously declared here
+ void Adafruit_GFX::drawFastVLine(int16_t x, int16_t y,
+      ^
+C:\Program Files (x86)\Arduino\libraries\TFT\src\utility\Adafruit_GFX.cpp:218:6: note: code may be misoptimized unless -fno-strict-aliasing is used
+C:\Users\tuzzc\OneDrive\Documents\Arduino\libraries\Adafruit_GFX_Library\Adafruit_GFX.cpp:523:6: warning: 'drawRect' violates the C++ One Definition Rule  [-Wodr]
+ void Adafruit_GFX::drawRect(int16_t x, int16_t y, int16_t w, int16_t h,
+      ^
+C:\Program Files (x86)\Arduino\libraries\TFT\src\utility\Adafruit_GFX.cpp:208:6: note: implicit this pointer type mismatch
+ void Adafruit_GFX::drawRect(int16_t x, int16_t y,
+      ^
+C:\Program Files (x86)\Arduino\libraries\TFT\src\utility\Adafruit_GFX.h:76:7: note: type 'struct Adafruit_GFX' itself violates the C++ One Definition Rule
+ class Adafruit_GFX : public Print {
+       ^
+C:\Users\tuzzc\OneDrive\Documents\Arduino\libraries\Adafruit_GFX_Library\Adafruit_GFX.h:15:7: note: the incompatible type is defined here
+ class Adafruit_GFX : public Print {
+       ^
+C:\Users\tuzzc\OneDrive\Documents\Arduino\libraries\Adafruit_GFX_Library/Adafruit_GFX.h:63:16: warning: 'drawRect' violates the C++ One Definition Rule  [-Wodr]
+   virtual void drawRect(int16_t x, int16_t y, int16_t w, int16_t h,
+                ^
+C:\Program Files (x86)\Arduino\libraries\TFT\src\utility\Adafruit_GFX.cpp:208:6: note: implicit this pointer type mismatch
+ void Adafruit_GFX::drawRect(int16_t x, int16_t y,
+      ^
+C:\Program Files (x86)\Arduino\libraries\TFT\src\utility\Adafruit_GFX.h:76:7: note: type 'struct Adafruit_GFX' itself violates the C++ One Definition Rule
+ class Adafruit_GFX : public Print {
+       ^
+C:\Users\tuzzc\OneDrive\Documents\Arduino\libraries\Adafruit_GFX_Library/Adafruit_GFX.h:15:7: note: the incompatible type is defined here
+ class Adafruit_GFX : public Print {
+       ^
+C:\Program Files (x86)\Arduino\libraries\TFT\src\utility\Adafruit_GFX.cpp:208:6: note: 'drawRect' was previously declared here
+ void Adafruit_GFX::drawRect(int16_t x, int16_t y,
+      ^
+C:\Program Files (x86)\Arduino\libraries\TFT\src\utility\Adafruit_GFX.cpp:208:6: note: code may be misoptimized unless -fno-strict-aliasing is used
+C:\Users\tuzzc\OneDrive\Documents\Arduino\libraries\Adafruit_GFX_Library\Adafruit_GFX.cpp:1242:8: warning: 'write' violates the C++ One Definition Rule  [-Wodr]
+ size_t Adafruit_GFX::write(uint8_t c) {
+        ^
+C:\Program Files (x86)\Arduino\libraries\TFT\src\utility\Adafruit_GFX.cpp:378:8: note: implicit this pointer type mismatch
+ size_t Adafruit_GFX::write(uint8_t c) {
+        ^
+C:\Program Files (x86)\Arduino\libraries\TFT\src\utility\Adafruit_GFX.h:76:7: note: type 'struct Adafruit_GFX' itself violates the C++ One Definition Rule
+ class Adafruit_GFX : public Print {
+       ^
+C:\Users\tuzzc\OneDrive\Documents\Arduino\libraries\Adafruit_GFX_Library\Adafruit_GFX.h:15:7: note: the incompatible type is defined here
+ class Adafruit_GFX : public Print {
+       ^
+C:\Users\tuzzc\OneDrive\Documents\Arduino\libraries\Adafruit_GFX_Library/Adafruit_GFX.h:182:18: warning: 'write' violates the C++ One Definition Rule  [-Wodr]
+   virtual size_t write(uint8_t);
+                  ^
+C:\Program Files (x86)\Arduino\libraries\TFT\src\utility\Adafruit_GFX.cpp:378:8: note: implicit this pointer type mismatch
+ size_t Adafruit_GFX::write(uint8_t c) {
+        ^
+C:\Program Files (x86)\Arduino\libraries\TFT\src\utility\Adafruit_GFX.h:76:7: note: type 'struct Adafruit_GFX' itself violates the C++ One Definition Rule
+ class Adafruit_GFX : public Print {
+       ^
+C:\Users\tuzzc\OneDrive\Documents\Arduino\libraries\Adafruit_GFX_Library/Adafruit_GFX.h:15:7: note: the incompatible type is defined here
+ class Adafruit_GFX : public Print {
+       ^
+C:\Program Files (x86)\Arduino\libraries\TFT\src\utility\Adafruit_GFX.cpp:378:8: note: 'write' was previously declared here
+ size_t Adafruit_GFX::write(uint8_t c) {
+        ^
+C:\Program Files (x86)\Arduino\libraries\TFT\src\utility\Adafruit_GFX.cpp:378:8: note: code may be misoptimized unless -fno-strict-aliasing is used
+C:\Users\tuzzc\OneDrive\Documents\Arduino\libraries\Adafruit_GFX_Library\Adafruit_GFX.cpp:1295:6: warning: 'setTextSize' violates the C++ One Definition Rule  [-Wodr]
+ void Adafruit_GFX::setTextSize(uint8_t s) { setTextSize(s, s); }
+      ^
+C:\Program Files (x86)\Arduino\libraries\TFT\src\utility\Adafruit_GFX.cpp:442:6: note: implicit this pointer type mismatch
+ void Adafruit_GFX::setTextSize(uint8_t s)
+      ^
+C:\Program Files (x86)\Arduino\libraries\TFT\src\utility\Adafruit_GFX.h:76:7: note: type 'struct Adafruit_GFX' itself violates the C++ One Definition Rule
+ class Adafruit_GFX : public Print {
+       ^
+C:\Users\tuzzc\OneDrive\Documents\Arduino\libraries\Adafruit_GFX_Library\Adafruit_GFX.h:15:7: note: the incompatible type is defined here
+ class Adafruit_GFX : public Print {
+       ^
+C:\Program Files (x86)\Arduino\libraries\TFT\src\utility\Adafruit_GFX.cpp:442:6: note: 'setTextSize' was previously declared here
+ void Adafruit_GFX::setTextSize(uint8_t s)
+      ^
+C:\Program Files (x86)\Arduino\libraries\TFT\src\utility\Adafruit_GFX.cpp:442:6: note: code may be misoptimized unless -fno-strict-aliasing is used
+C:\Users\tuzzc\OneDrive\Documents\Arduino\libraries\MCUFRIEND_kbv-master/MCUFRIEND_kbv.h:31:19: warning: 'fillRect' violates the C++ One Definition Rule  [-Wodr]
+  virtual void     fillRect(int16_t x, int16_t y, int16_t w, int16_t h, uint16_t color);
+                   ^
+C:\Users\tuzzc\OneDrive\Documents\Arduino\libraries\MCUFRIEND_kbv-master\MCUFRIEND_kbv.cpp:572:6: note: implicit this pointer type mismatch
+ void MCUFRIEND_kbv::fillRect(int16_t x, int16_t y, int16_t w, int16_t h, uint16_t color)
+      ^
+C:\Users\tuzzc\OneDrive\Documents\Arduino\libraries\MCUFRIEND_kbv-master\MCUFRIEND_kbv.h:19:7: note: type 'struct MCUFRIEND_kbv' itself violates the C++ One Definition Rule
+ class MCUFRIEND_kbv : public Adafruit_GFX {
+       ^
+C:\Users\tuzzc\OneDrive\Documents\Arduino\libraries\MCUFRIEND_kbv-master/MCUFRIEND_kbv.h:19:7: note: the incompatible type is defined here
+ class MCUFRIEND_kbv : public Adafruit_GFX {
+       ^
+C:\Users\tuzzc\OneDrive\Documents\Arduino\libraries\MCUFRIEND_kbv-master\MCUFRIEND_kbv.cpp:572:6: note: 'fillRect' was previously declared here
+ void MCUFRIEND_kbv::fillRect(int16_t x, int16_t y, int16_t w, int16_t h, uint16_t color)
+      ^
+C:\Users\tuzzc\OneDrive\Documents\Arduino\libraries\MCUFRIEND_kbv-master\MCUFRIEND_kbv.cpp:572:6: note: code may be misoptimized unless -fno-strict-aliasing is used
+C:\Users\tuzzc\OneDrive\Documents\Arduino\libraries\Adafruit_GFX_Library\Adafruit_GFX.cpp:330:6: warning: 'drawLine' violates the C++ One Definition Rule  [-Wodr]
+ void Adafruit_GFX::drawLine(int16_t x0, int16_t y0, int16_t x1, int16_t y1,
+      ^
+C:\Program Files (x86)\Arduino\libraries\TFT\src\utility\Adafruit_GFX.cpp:164:6: note: implicit this pointer type mismatch
+ void Adafruit_GFX::drawLine(int16_t x0, int16_t y0,
+      ^
+C:\Program Files (x86)\Arduino\libraries\TFT\src\utility\Adafruit_GFX.h:76:7: note: type 'struct Adafruit_GFX' itself violates the C++ One Definition Rule
+ class Adafruit_GFX : public Print {
+       ^
+C:\Users\tuzzc\OneDrive\Documents\Arduino\libraries\Adafruit_GFX_Library\Adafruit_GFX.h:15:7: note: the incompatible type is defined here
+ class Adafruit_GFX : public Print {
+       ^
+C:\Users\tuzzc\OneDrive\Documents\Arduino\libraries\Adafruit_GFX_Library/Adafruit_GFX.h:61:16: warning: 'drawLine' violates the C++ One Definition Rule  [-Wodr]
+   virtual void drawLine(int16_t x0, int16_t y0, int16_t x1, int16_t y1,
+                ^
+C:\Program Files (x86)\Arduino\libraries\TFT\src\utility\Adafruit_GFX.cpp:164:6: note: implicit this pointer type mismatch
+ void Adafruit_GFX::drawLine(int16_t x0, int16_t y0,
+      ^
+C:\Program Files (x86)\Arduino\libraries\TFT\src\utility\Adafruit_GFX.h:76:7: note: type 'struct Adafruit_GFX' itself violates the C++ One Definition Rule
+ class Adafruit_GFX : public Print {
+       ^
+C:\Users\tuzzc\OneDrive\Documents\Arduino\libraries\Adafruit_GFX_Library/Adafruit_GFX.h:15:7: note: the incompatible type is defined here
+ class Adafruit_GFX : public Print {
+       ^
+C:\Program Files (x86)\Arduino\libraries\TFT\src\utility\Adafruit_GFX.cpp:164:6: note: 'drawLine' was previously declared here
+ void Adafruit_GFX::drawLine(int16_t x0, int16_t y0,
+      ^
+C:\Program Files (x86)\Arduino\libraries\TFT\src\utility\Adafruit_GFX.cpp:164:6: note: code may be misoptimized unless -fno-strict-aliasing is used
+C:\Users\tuzzc\OneDrive\Documents\Arduino\libraries\MCUFRIEND_kbv-master/MCUFRIEND_kbv.h:24:11: warning: 'reset' violates the C++ One Definition Rule  [-Wodr]
+  void     reset(void);                                       // you only need the constructor
+           ^
+C:\Users\tuzzc\OneDrive\Documents\Arduino\libraries\MCUFRIEND_kbv-master\MCUFRIEND_kbv.cpp:89:6: note: implicit this pointer type mismatch
+ void MCUFRIEND_kbv::reset(void)
+      ^
+C:\Users\tuzzc\OneDrive\Documents\Arduino\libraries\MCUFRIEND_kbv-master\MCUFRIEND_kbv.h:19:7: note: type 'struct MCUFRIEND_kbv' itself violates the C++ One Definition Rule
+ class MCUFRIEND_kbv : public Adafruit_GFX {
+       ^
+C:\Users\tuzzc\OneDrive\Documents\Arduino\libraries\MCUFRIEND_kbv-master/MCUFRIEND_kbv.h:19:7: note: the incompatible type is defined here
+ class MCUFRIEND_kbv : public Adafruit_GFX {
+       ^
+C:\Users\tuzzc\OneDrive\Documents\Arduino\libraries\MCUFRIEND_kbv-master\MCUFRIEND_kbv.cpp:89:6: note: 'reset' was previously declared here
+ void MCUFRIEND_kbv::reset(void)
+      ^
+C:\Users\tuzzc\OneDrive\Documents\Arduino\libraries\MCUFRIEND_kbv-master\MCUFRIEND_kbv.cpp:89:6: note: code may be misoptimized unless -fno-strict-aliasing is used
+C:\Users\tuzzc\OneDrive\Documents\Arduino\libraries\MCUFRIEND_kbv-master/MCUFRIEND_kbv.h:30:11: warning: 'readID' violates the C++ One Definition Rule  [-Wodr]
+  uint16_t readID(void);
+           ^
+C:\Users\tuzzc\OneDrive\Documents\Arduino\libraries\MCUFRIEND_kbv-master\MCUFRIEND_kbv.cpp:192:10: note: implicit this pointer type mismatch
+ uint16_t MCUFRIEND_kbv::readID(void)
+          ^
+C:\Users\tuzzc\OneDrive\Documents\Arduino\libraries\MCUFRIEND_kbv-master\MCUFRIEND_kbv.h:19:7: note: type 'struct MCUFRIEND_kbv' itself violates the C++ One Definition Rule
+ class MCUFRIEND_kbv : public Adafruit_GFX {
+       ^
+C:\Users\tuzzc\OneDrive\Documents\Arduino\libraries\MCUFRIEND_kbv-master/MCUFRIEND_kbv.h:19:7: note: the incompatible type is defined here
+ class MCUFRIEND_kbv : public Adafruit_GFX {
+       ^
+C:\Users\tuzzc\OneDrive\Documents\Arduino\libraries\MCUFRIEND_kbv-master\MCUFRIEND_kbv.cpp:192:10: note: 'readID' was previously declared here
+ uint16_t MCUFRIEND_kbv::readID(void)
+          ^
+C:\Users\tuzzc\OneDrive\Documents\Arduino\libraries\MCUFRIEND_kbv-master\MCUFRIEND_kbv.cpp:192:10: note: code may be misoptimized unless -fno-strict-aliasing is used
+C:\Users\tuzzc\OneDrive\Documents\Arduino\libraries\MCUFRIEND_kbv-master/MCUFRIEND_kbv.h:25:11: warning: 'begin' violates the C++ One Definition Rule  [-Wodr]
+  void     begin(uint16_t ID = 0x9341);                       // you only need the constructor
+           ^
+C:\Users\tuzzc\OneDrive\Documents\Arduino\libraries\MCUFRIEND_kbv-master\MCUFRIEND_kbv.cpp:893:6: note: implicit this pointer type mismatch
+ void MCUFRIEND_kbv::begin(uint16_t ID)
+      ^
+C:\Users\tuzzc\OneDrive\Documents\Arduino\libraries\MCUFRIEND_kbv-master\MCUFRIEND_kbv.h:19:7: note: type 'struct MCUFRIEND_kbv' itself violates the C++ One Definition Rule
+ class MCUFRIEND_kbv : public Adafruit_GFX {
+       ^
+C:\Users\tuzzc\OneDrive\Documents\Arduino\libraries\MCUFRIEND_kbv-master/MCUFRIEND_kbv.h:19:7: note: the incompatible type is defined here
+ class MCUFRIEND_kbv : public Adafruit_GFX {
+       ^
+C:\Users\tuzzc\OneDrive\Documents\Arduino\libraries\MCUFRIEND_kbv-master\MCUFRIEND_kbv.cpp:893:6: note: 'begin' was previously declared here
+Multiple libraries were found for "Adafruit_GFX.h"
+ void MCUFRIEND_kbv::begin(uint16_t ID)
+ Used: C:\Users\tuzzc\OneDrive\Documents\Arduino\libraries\Adafruit_GFX_Library
+      ^
+ Not used: C:\Users\tuzzc\OneDrive\Documents\Arduino\libraries\Adafruit-GFX-Library-master
+C:\Users\tuzzc\OneDrive\Documents\Arduino\libraries\MCUFRIEND_kbv-master\MCUFRIEND_kbv.cpp:893:6: note: code may be misoptimized unless -fno-strict-aliasing is used
+C:\Users\tuzzc\OneDrive\Documents\Arduino\libraries\MCUFRIEND_kbv-master/MCUFRIEND_kbv.h:35:19: warning: 'setRotation' violates the C++ One Definition Rule  [-Wodr]
+  virtual void     setRotation(uint8_t r);
+                   ^
+C:\Users\tuzzc\OneDrive\Documents\Arduino\libraries\MCUFRIEND_kbv-master\MCUFRIEND_kbv.cpp:353:6: note: implicit this pointer type mismatch
+ void MCUFRIEND_kbv::setRotation(uint8_t r)
+      ^
+C:\Users\tuzzc\OneDrive\Documents\Arduino\libraries\MCUFRIEND_kbv-master\MCUFRIEND_kbv.h:19:7: note: type 'struct MCUFRIEND_kbv' itself violates the C++ One Definition Rule
+ class MCUFRIEND_kbv : public Adafruit_GFX {
+       ^
+C:\Users\tuzzc\OneDrive\Documents\Arduino\libraries\MCUFRIEND_kbv-master/MCUFRIEND_kbv.h:19:7: note: the incompatible type is defined here
+ class MCUFRIEND_kbv : public Adafruit_GFX {
+       ^
+C:\Users\tuzzc\OneDrive\Documents\Arduino\libraries\MCUFRIEND_kbv-master\MCUFRIEND_kbv.cpp:353:6: note: 'setRotation' was previously declared here
+ void MCUFRIEND_kbv::setRotation(uint8_t r)
+      ^
+C:\Users\tuzzc\OneDrive\Documents\Arduino\libraries\MCUFRIEND_kbv-master\MCUFRIEND_kbv.cpp:353:6: note: code may be misoptimized unless -fno-strict-aliasing is used
+C:\Users\tuzzc\OneDrive\Documents\Arduino\libraries\MCUFRIEND_kbv-master/MCUFRIEND_kbv.h:23:2: warning: '__comp_ctor ' violates the C++ One Definition Rule  [-Wodr]
+  MCUFRIEND_kbv(int CS=0, int RS=0, int WR=0, int RD=0, int _RST=0);  //dummy arguments
+  ^
+C:\Users\tuzzc\OneDrive\Documents\Arduino\libraries\MCUFRIEND_kbv-master\MCUFRIEND_kbv.cpp:59:1: note: implicit this pointer type mismatch
+ MCUFRIEND_kbv::MCUFRIEND_kbv(int CS, int RS, int WR, int RD, int _RST):Adafruit_GFX(240, 320)
+ ^
+C:\Users\tuzzc\OneDrive\Documents\Arduino\libraries\MCUFRIEND_kbv-master\MCUFRIEND_kbv.h:19:7: note: type 'struct MCUFRIEND_kbv' itself violates the C++ One Definition Rule
+ class MCUFRIEND_kbv : public Adafruit_GFX {
+       ^
+C:\Users\tuzzc\OneDrive\Documents\Arduino\libraries\MCUFRIEND_kbv-master/MCUFRIEND_kbv.h:19:7: note: the incompatible type is defined here
+ class MCUFRIEND_kbv : public Adafruit_GFX {
+       ^
+C:\Users\tuzzc\OneDrive\Documents\Arduino\libraries\MCUFRIEND_kbv-master\MCUFRIEND_kbv.cpp:59:1: note: '__comp_ctor ' was previously declared here
+ MCUFRIEND_kbv::MCUFRIEND_kbv(int CS, int RS, int WR, int RD, int _RST):Adafruit_GFX(240, 320)
+ ^
+C:\Users\tuzzc\OneDrive\Documents\Arduino\libraries\MCUFRIEND_kbv-master\MCUFRIEND_kbv.cpp:59:1: note: code may be misoptimized unless -fno-strict-aliasing is used
+C:\Users\tuzzc\OneDrive\Documents\Arduino\libraries\MCUFRIEND_kbv-master\MCUFRIEND_kbv.h:34:19: warning: 'fillScreen' violates the C++ One Definition Rule  [-Wodr]
+  virtual void     fillScreen(uint16_t color)                                     { fillRect(0, 0, _width, _height, color); }
+                   ^
+C:\Users\tuzzc\OneDrive\Documents\Arduino\libraries\MCUFRIEND_kbv-master/MCUFRIEND_kbv.h:34:19: note: implicit this pointer type mismatch
+  virtual void     fillScreen(uint16_t color)                                     { fillRect(0, 0, _width, _height, color); }
+                   ^
+C:\Users\tuzzc\OneDrive\Documents\Arduino\libraries\MCUFRIEND_kbv-master/MCUFRIEND_kbv.h:19:7: note: type 'struct MCUFRIEND_kbv' itself violates the C++ One Definition Rule
+ class MCUFRIEND_kbv : public Adafruit_GFX {
+       ^
+C:\Users\tuzzc\OneDrive\Documents\Arduino\libraries\MCUFRIEND_kbv-master\MCUFRIEND_kbv.h:19:7: note: the incompatible type is defined here
+ class MCUFRIEND_kbv : public Adafruit_GFX {
+       ^
+C:\Users\tuzzc\OneDrive\Documents\Arduino\libraries\MCUFRIEND_kbv-master/MCUFRIEND_kbv.h:34:19: note: 'fillScreen' was previously declared here
+  virtual void     fillScreen(uint16_t color)                                     { fillRect(0, 0, _width, _height, color); }
+                   ^
+C:\Users\tuzzc\OneDrive\Documents\Arduino\libraries\MCUFRIEND_kbv-master/MCUFRIEND_kbv.h:34:19: note: code may be misoptimized unless -fno-strict-aliasing is used
+collect2.exe: error: ld returned 1 exit status
+exit status 1
+Error compiling for board Arduino Uno.
